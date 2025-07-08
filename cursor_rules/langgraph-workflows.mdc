@@ -1,0 +1,12 @@
+---
+Description: Rules for writing idiomatic LangGraph code with Cursor
+Globs: "**/*.py"
+alwaysApply: false
+---
+# LangGraph Workflow Guidelines
+- Follow LangGraph architectural patterns for building workflows and agents.
+- Ensure code adheres to examples from the official LangGraph tutorials.
+- Use concise, crisp instructions for defining nodes, edges, and state management in workflows.
+- Organize code into sections for different workflow and agent examples.
+
+Source: Adapted from https://github.com/rlancemartin/langgraph-rules

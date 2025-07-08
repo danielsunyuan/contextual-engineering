@@ -1,0 +1,13 @@
+---
+Description: Rules for a streamlined autonomous AI workflow in Cursor
+Globs: "**/*.*"
+alwaysApply: false
+---
+# Autonomous Workflow Rules
+- Maintain two core files for project context:
+  - 'project_config.md': Define project goals, tech stack, coding patterns, and limitations.
+  - 'workflow_state.md': Track current state (Analyze, Blueprint, Construct, Validate), plan steps, embedded rules, and AI logs.
+- Use these files to guide the AI in a Devin-like autonomous coding experience.
+- Ensure AI updates 'workflow_state.md' dynamically during tasks.
+
+Source: Adapted from https://forum.cursor.com/t/guide-a-simpler-more-autonomous-ai-workflow-for-cursor-new-update/70688

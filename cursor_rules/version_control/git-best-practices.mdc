@@ -1,0 +1,15 @@
+---
+Description: Rules for maintaining clean Git sessions and insightful commits with Cursor
+Globs: "**/*.*"
+alwaysApply: false
+---
+# Git Best Practices for Cursor
+- Ensure each commit is atomic, containing one logical change.
+- Follow the Conventional Commits style with a structured format: <type>(scope): description (e.g., feat(auth): add two-factor authentication).
+- Write commit messages in imperative mood (e.g., 'Add feature' not 'Added feature').
+- Include a commit body explaining the rationale and context behind changes when necessary.
+- Use AI to draft commit messages but review and edit to capture intent, not just summarize diffs.
+- Tag important milestones with semantic versioning (e.g., v1.0.0) for clarity in project evolution.
+- Adopt consistent branch naming conventions to provide context (e.g., feature/login-page, bugfix/fix-login-error).
+
+Source: Adapted from community guidelines and articles like https://medium.com/@FrankGoortani/git-best-practices-and-ai-driven-development-rethinking-documentation-and-coding-standards-bca75567566a

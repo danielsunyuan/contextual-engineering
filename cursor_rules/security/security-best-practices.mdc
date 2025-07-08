@@ -1,0 +1,10 @@
+---
+description: Security-focused rules for safe AI code generation with Cursor
+globs: "**/*.ts", "**/*.js", "**/*.py"
+alwaysApply: true
+---
+- Avoid unsafe eval usage in code.
+- Ensure secure authentication flows are implemented.
+- Use parameterized queries to prevent SQL injection.
+
+Source: Inspired by Secure Code Warrior AI Security Rules at https://itwire.com/business-it-news/data/secure-code-warrior-unveils-industry-first-ai-coding-rulesets-to-guide-safer-ai-code-deployment.html

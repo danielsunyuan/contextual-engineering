@@ -1,0 +1,9 @@
+---
+description: Next.js project structure and architectural patterns for Cursor
+globs: "**/*.ts", "**/*.tsx"
+alwaysApply: false
+---
+- Follow Next.js patterns and use the App Router.
+- Correctly determine when to use server vs. client components in Next.js.
+
+Source: Adapted from Windsurf Rules Directory examples at https://windsurf.com/editor/directory

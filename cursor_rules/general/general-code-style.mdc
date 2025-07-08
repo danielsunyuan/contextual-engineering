@@ -1,0 +1,10 @@
+---
+description: General coding style and formatting rules for Cursor
+globs: "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"
+alwaysApply: false
+---
+- Follow the Airbnb Style Guide for code formatting.
+- Use PascalCase for React component file names (e.g., UserCard.tsx, not user-card.tsx).
+- Prefer named exports for components.
+
+Source: Adapted from Windsurf Rules Directory examples at https://windsurf.com/editor/directory

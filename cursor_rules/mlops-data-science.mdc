@@ -1,0 +1,13 @@
+---
+Description: Guidelines for MLOps and Data Science projects with Cursor
+Globs: "**/*.py", "**/*.ipynb"
+alwaysApply: false
+---
+# MLOps and Data Science Rules
+- Use Python best practices for data science and machine learning operations.
+- Structure code for modularity: separate files for data loading, preprocessing, modeling, training, and evaluation.
+- Follow PEP8 style guide for Python code.
+- Optimize for readability over premature optimization in data pipelines.
+- Use type hints consistently in data science scripts.
+
+Source: Inspired by community discussions and Windsurf Rules Directory at https://windsurf.com/editor/directory

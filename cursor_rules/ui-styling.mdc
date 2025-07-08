@@ -1,0 +1,9 @@
+---
+description: UI and styling guidelines for Cursor
+globs: "**/*.tsx", "**/*.jsx"
+alwaysApply: false
+---
+- Use Tailwind CSS for styling.
+- Use Shadcn UI for components.
+
+Source: Adapted from Windsurf Rules Directory examples at https://windsurf.com/editor/directory
